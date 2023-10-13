@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwandCss</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body>
+   <nav class="container mx-auto p-6  border-b-2 shadow-md">
+    <div class="flex items-center justify-between">
+        <div>
+            <img src="/dist/images/Tailwind_CSS_logo.svg.png" alt="tailwand logo" width="200" >
+        </div>
+        <div class="hidden md:flex space-x-6 font-semibold">
+        <a href="#" class="text-slate-900 hover:text-slate-500">Portofolio</a>
+        <a href="#" class="text-slate-900 hover:text-slate-500">About</a>
+        <a href="#" class="text-slate-900 hover:text-slate-500">Contact</a>
+        <a href="#" class="text-slate-900 hover:text-slate-500">Social</a>
+        <a href="#" class="px-4  h-7 pt-0.5 rounded-full text-white hover:bg-slate-900 bg-orange-500">CALL ME</a>
+        </div>
+        <button id="menue-btn" class="md:hidden">
+            <i class='bx bx-menu text-3xl'></i>
+        </button>
+    </div>
+    <div class="md:hidden">
+        <div id="menue-content" class="absolute hidden flex flex-col items-center space-y-4 font-bold rounded-lg bg-gray-50 drop-shadow-lg bg-opacity-40 py-8 left-6 right-6 ">
+        <a href="#" >Portofolio</a>
+        <a href="#" >About</a>
+        <a href="#" >Contact</a>
+        <a href="#" >Social</a>
+        <a href="#" class="px-4  h-7 pt-0.5 rounded-full text-white hover:bg-slate-900 bg-orange-500">CALL ME</a>
+        </div>
+    </div>
+   </nav>
+   <section id="header">
+    <div class="container flex flex-col-reverse md:flex-row mx-auto p-6 space-x-6">
+        <div class="md:w-1/2 flex flex-col justify-center space-y-6 py-8 text-center md:text-left">
+            <h1 class="font-bold text-2xl md:text-5xl text-slate-900">Rapidly build modern websites without ever leaving your HTML.</h1>
+            <p>A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+            </p>
+            <a href="#" class="px-4 py-3 self-center md:self-start rounded-full text-white hover:bg-slate-900 bg-orange-500">CALL ME</a>
+            
+        </div>
+        <div class="md:w-1/2">
+            <img src="/dist/images/undraw_woman_ffrd.svg" alt="">
+        </div>
+    </div>
+    
+   </section>
+   <section id="author">
+    <div class=" container px-5 mx-auto my-32 text-center">
+        <h2 class="font-bold text-4xl">"Best Practices" don't actually work.</h2>
+        <p class="mt-8 max-w-5xl mx-auto text-slate-500">A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. Though not required by the orthographic conventions of any language with a writing system, paragraphs
+        are a conventional means of organizing extended segments of prose.</p>
+        <div class="mt-10 flex flex-col space-x-0 space-y-5 md:flex-row md:space-x-5 md:space-y-0 ">
+            <div class="shadow-lg md:w-1/3 flex flex-col p-6 space-y-2 items-center rounded-lg border border-slate-400 bg-slate-200">
+                <img src="/dist/images/p1.jpg" alt="person1" class=" w-16 rounded-full -mt-12">
+                <h5 class="font-bold text-slate-900">Mona</h5>
+                <p class="leading-8 font-semibold">Lorem ipsum,totam placeat, illum beatae maiores iure accusantium esse adipisci 
+                dignissimost officia nam in reiciendis ab quam veritatis.</p>
+            </div>
+            <div class="shadow-lg md:w-1/3 flex flex-col p-6 space-y-2 items-center rounded-lg border border-slate-400 bg-slate-200">
+                <img src="/dist/images/p2.jpg" alt="person1" class=" w-16 rounded-full -mt-12">
+                <h5 class="font-bold text-slate-900">Ahmed</h5>
+                <p class="leading-8 font-semibold">eat, illum beatae maiores iure accusantium esse adipisci 
+                dignissimost quam veritatis.</p>
+            </div>
+            <div class="shadow-lg md:w-1/3 flex flex-col p-6 space-y-2 items-center rounded-lg border border-slate-400 bg-slate-200">
+                <img src="/dist/images/p3.jpg" alt="person1" class=" w-16 rounded-full -mt-12">
+                <h5 class="font-bold text-slate-900">Mohamed</h5>
+                <p class="leading-8 font-semibold">Lorem ipsum,totam placeat, illum beatae maiores iure accusantium esse adipisci 
+                dignissimost officia  veritatis.</p>
+            </div>
+
+
+           
+        </div>
+    </div>
+   </section>
+   <div class="w-full bg-orange-600 h-10 text-center font-bold text-white py-1">
+    TailWand
+   </div>
+   <footer class="bg-slate-800">
+    <div class="container mx-auto flex flex-col-reverse lg:flex-row text-white px-6 py-14 justify-between space-y-12 lg:space-y-0">
+        <div class="flex flex-col items-center justify-between space-y-12 lg:space-y-4 lg:items-start mt-5 lg:mt-0">
+            <div>
+                <img src="/dist/images/Tailwind_CSS_logo.svg.png" alt="logo" class="h-8">
+            </div>
+            <div class="flex space-x-4">
+                <a href="#"><i class='bx bxl-facebook-circle text-3xl' style='color:#fffbfb'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt text-3xl' style='color:#ffffff'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square text-3xl' style='color:#ffffff' ></i></a>
+                <a href="#"><i class='bx bxl-youtube text-3xl'></i></a>
+                
+            </div>
+        </div>
+        <div class="flex justify-around space-x-32">
+            <div class="flex flex-col space-y-2">
+                <a href="#" class="hover:text-slate-300">Home</a>
+                <a href="#" class="hover:text-slate-300">About</a>
+                <a href="#" class="hover:text-slate-300">Contact</a>
+            </div>
+            <div class="flex flex-col space-y-2">
+                <a href="#" class="hover:text-slate-300">Privacy</a>
+                <a href="#" class="hover:text-slate-300">Ask us</a>
+                <a href="#" class="hover:text-slate-300">information</a>
+            </div>
+            
+        </div>
+        <div class="flex flex-col justify-between text-center">
+            
+            <form action="#">
+            <div class="flex space-x-3">
+                <input type="text" placeholder="Subscribe" class="flex-1 py-4 px-10 rounded-full">
+                <button class="bg-orange-500 hover:bg-slate-500 px-4 py-2 rounded-full">Go</button>
+            </div>
+            </form>
+            <div class="hidden lg:block">
+                Copyright © 2023 Tailwind Labs Inc.
+                Trademark Policy
+            </div>
+        </div>
+    </div>
+   </footer>
+   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+   <script src="/dist/main.js"></script>
+
+</body>
+</html>
